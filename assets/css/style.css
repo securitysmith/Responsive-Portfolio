@@ -114,32 +114,6 @@ img.headshot {
 	height: 180px;
 }
 
-.portfolio-item {
-	display: inline-block;
-	position: relative;
-	width: 270px;
-	height: 200px;
-	transition: transform .2s ease-out;
-}
-
-.portfolio-item:nth-child(even) {
-	margin-left: 25px;
-}
-
-.portfolio-item:hover {
-	transform: rotate(-4deg) scale(1.1, 1.1);
-}
-
-.item-name {
-	position: relative;
-	top: -100px;
-	text-align: center;
-	background-color: #4aaaa5;
-	padding: 1em;
-	color: #ffffff;
-	z-index: 1000;
-}
-
 .contact {
 	width: 540px;
 }
